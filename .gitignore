@@ -1,0 +1,19 @@
+# Compiled C/C++ files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.vcxproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
