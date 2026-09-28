@@ -1,6 +1,6 @@
 # Discrete Math Toolkit
 
-A menu-driven C++ application that combines several discrete mathematics and computer science concepts into one command-line toolkit.
+A C++ application with an interactive menu that combines several discrete mathematics and computer science concepts into one console toolkit.
 
 ## Tools Included
 
@@ -11,19 +11,19 @@ Tests all 26 Caesar shifts and allows the user to select a shift to decrypt alph
 Converts nonnegative decimal integers to bases 2 through 16.
 
 ### Hamming(7,4) Encoder & Error Corrector
-Encodes a 4-bit value using Hamming(7,4), simulates an optional single-bit error, calculates the syndrome, corrects the detected bit, and decodes the result.
+Encodes a value with four bits using Hamming(7,4), simulates an optional error in one bit, calculates the syndrome, corrects the detected bit, and decodes the result.
 
 ### Set Operations
 Accepts two integer sets and calculates their union, intersection, A - B, and B - A.
 
 ### Truth Table Generator
-Generates truth-table results using XOR, NAND, NOR, XNOR, and logical implication.
+Generates truth tables using XOR, NAND, NOR, XNOR, and logical implication.
 
 ## Concepts Demonstrated
 
 - Discrete mathematics
 - Boolean logic
-- Error-detecting and error-correcting codes
+- Codes that detect and correct errors
 - Caesar cipher transformations
 - Number systems and base conversion
 - Mathematical set operations
@@ -79,4 +79,4 @@ discrete-math-toolkit/
 
 ## About
 
-This project combines several smaller discrete-mathematics exercises into a single organized C++ application. It demonstrates how concepts from logic, number systems, cryptography, coding theory, and set theory can be implemented programmatically.
+This project combines several smaller discrete mathematics exercises into a single organized C++ application. It demonstrates how concepts from logic, number systems, cryptography, coding theory, and set theory can be implemented programmatically.
